@@ -1,19 +1,36 @@
 package `1_Tipos_de_variables`
 
 fun main() {
-    /*
- Crear un programa que defina dos variables inmutables de tipo Int. Luego definir una
- tercer variable mutable que almacene la suma de las dos primeras variables y las
- muestre. Seguidamente almacenar en la variable el producto de las dos primeras
- variables y mostrar el resultado.
-     */
+    // Todas las variable "val" son inmutables
+    // Variable inmutable de tipo entero
+    val edad: Int
+    edad = 48
+    // Variable inmutable de tipo decimal
+    val sueldo: Float
+    sueldo = 1200.55f // siempre lleva una "f" al final del valor
+    // Variable inmutable de tipo decimal
+    val total: Double
+    total = 70000.24
+    // Variable inmutable de tipo alfanumérico
+    val titulo: String
+    titulo = "Sistema de Ventas"
 
-    val variable1: Int = 2
-    val variable2: Int = 3
-    var suma: Int = variable1 + variable2
-    var producto: Int = variable1 + variable2
-    println("suma: " + suma)
-    println("producto: " + producto)
+    // Variable mutable, las variable mutables empiezan con "var"
+    var mes: Int
+    mes = 1
+    //algunas líneas más de código
+    mes = 2
+    // Variable de tipo Char, almacena un unico carácter
+    var continua: Char = 's'
+    // Variable de tipo Booleano, true o false
+    var fin: Boolean = false
 
+    print("Jorge\n")
+    print("Luis")
 
+    println("Gonzalez")
+    println("Perez")
+
+    println(mes)
 }
+
